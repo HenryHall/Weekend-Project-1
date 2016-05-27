@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h2>Create Employee</h2>
+    <input id='firstName'>First Name</input><p id='warningFirstName'>Please enter a first name.</p><br>
+    <input id='lastName'>Last Name</input><p id='warningLastName'>Please enter a last name</p><br>
+    <input id='EID'>Employee ID Number</input><p id='warningEID'>Please enter an EID</p><br>
+    <input id='jobTitle'>Job Title</input><p id='warningJobTitle'>Please enter a job title.</p><br>
+    <input id='salary'>Salary</input><p id='warningSalary'>Please enter a salary.</p><br>
+    <p id='warningMessage'>Make sure you have entered all required fields.</p><br>
+    <button onclick="checkForm();">Submit</button>
+
+    <h2>Remove Employee</h2>
+    <select id='removeEmployee'></select>
+    <button onclick="removeEmployee();">Submit</button>
+
+    <h2>Current Spending on Salaries</h2>
+    <span>$</span><span id='spending'>0</span>
+
+    <script src="script.js"></script>
+  </body>
+</html>
